@@ -1,15 +1,5 @@
-console.log('arr' + " - object");
-console.log(4 + +" - object");
+let myName = "Alexander";
+let myAge = 37;
+let IKnowJS = true;
 
-let incr = 10,
-    decr = 10;
-
-// ++incr;
-// --decr;
-
-console.log(++incr);
-console.log(--decr);
-
-console.log(5%2);
-
-console.log( true && true);
+console.log(`Hello, my name is ${myName}, I am ${myAge} years old and I can code JS: ${IKnowJS}`);
