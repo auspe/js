@@ -1,0 +1,10 @@
+let a, b, c;
+a = 4;
+b = 6;
+c = 8;
+b += a;
+a /= c;
+c %= b;
+console.log(a);
+console.log(b);
+console.log(c);
